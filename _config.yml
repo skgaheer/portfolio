@@ -1,4 +1,8 @@
 remote_theme: pages-themes/cayman@v0.2.0
 title: Simran Kaur Gaheer
+description: "A brief description."
+baseurl: "" 
+url: "https://skgaheer.github.io" # Replace with your GitHub username
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme
+  - jekyll-feed # Optional: for RSS feed
